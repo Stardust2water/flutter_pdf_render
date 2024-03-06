@@ -1,4 +1,6 @@
-group 'jp.espresso3389.pdf_render'
+package android
+
+group 'com.stardust2water.flutter_pdf_render'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -43,11 +45,11 @@ android {
         minSdkVersion 21
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_7
+        jvmTarget = '1.8'
     }
     lintOptions {
         disable 'InvalidPackage'
