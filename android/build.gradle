@@ -1,5 +1,3 @@
-package android
-
 group 'com.stardust2water.flutter_pdf_render'
 version '1.0-SNAPSHOT'
 
